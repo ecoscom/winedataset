@@ -53,10 +53,7 @@ def train_model(height):
     print('Precisão:' + str(accuracy_score(y_test, y_pred)))
 '''
 
-
-
 model = train_model(3)
-
 
 feature_names = ['alcohol',
                  'malic_acid',
